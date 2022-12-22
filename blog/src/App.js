@@ -36,8 +36,21 @@ function App() {
         <h4>{ visitor } { 글제목[2] }</h4>
         <p>2월 17일 발행</p>
       </div>
+
+      <Modal />
+
     </div>
   );
+}
+
+function Modal(){ // 코딩애플 - 리액트 6강
+  return(
+    <div className="modal">
+      <h4>제목</h4>
+      <p>날짜</p>
+      <p>상세내용</p>
+    </div>
+  )
 }
 
 export default App;
